@@ -1,0 +1,44 @@
+## define a table mapping each letter to a spefic pitch, limited range ( C2 - C5) 
+A-C2 B-D2
+
+## rythms: add rythms functionality: according to the number of letter in the word
+then find the first nature number module = 0. based on the number, create a 
+pattern for pitch and chord.
+
+# rest for 2 round, loop
+
+
+
+
+
+difference between the consecutive 2 pitch of every word should be smaller
+
+problem
+the pitch from python library does not last as long as it from the real piano, causing the audience feel the music not smooth
+
+
+difference between the consecutive 2 pitch of every word should be smaller.   
+from the last letter of the previous word and first letter of the current word
+
+
+
+
+
+
+
+randomly created serveral pieces of music based on each word let the client choose what they want.
+
+
+
+for each word, web crawler download music
+
+
+
+Sentiment Analysis: Use a sentiment analysis library in Python to determine the overall sentiment of the user's input. There are many libraries that can do this, such as TextBlob, VaderSentiment, and NLTK. For more advanced analysis, you could use a machine learning model trained on a sentiment analysis dataset. You can easily find pre-trained models for this task in the transformers library from Hugging Face.
+
+
+Word Similarity: Use Word2Vec, GloVe, or BERT to determine the similarity between the words in the user's input and your predefined words. You can use the gensim or transformers library for this, as shown in the previous examples. You'll have to do this for each word in the user's input, and keep track of the most similar predefined word for each input word
+
+Music Selection: For each predefined word, you'll have a mapping to a set of music tracks - one for positive sentiment and one for negative sentiment. After determining the sentiment of the user's input and finding the most similar predefined word for each input word, you can select the appropriate music track based on the sentiment
+
+Music Concatenation: After selecting the music tracks for each word, you'll have to concatenate them to create a single track
